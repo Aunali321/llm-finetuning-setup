@@ -32,19 +32,19 @@ cd llm-finetuning-setup
 3. Make the script executable:
 
 ```bash
-chmod +x setup_llm_env.sh
+chmod +x llm-finetuning-setup.sh
 ```
 
 4. Run the script:
 
 ```bash
-./setup_llm_env.sh 
+./llm-finetuning-setup.sh
 ```
 
 If you're on a system without `sudo`, you may need to run it with root privileges:
 
 ```bash
-su -c ./setup_llm_env.sh
+su -c ./llm-finetuning-setup.sh
 ```
 
 ## Usage
