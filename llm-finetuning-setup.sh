@@ -107,7 +107,7 @@ main() {
     install_cuda_and_drivers
 
     # Setup Swift
-    setup_project "swift" "https://github.com/modelscope/swift.git" "einops timm huggingface_hub[cli] hf_transfer flash-attn --no-build-isolation"
+    setup_project "swift" "https://github.com/modelscope/swift.git" "einops timm huggingface_hub[cli] hf_transfer psutil ninja flash-attn --no-build-isolation"
 
     # Setup Axolotl
     setup_project "axolotl" "https://github.com/axolotl-ai-cloud/axolotl" "packaging ninja flash-attn --no-build-isolation"
